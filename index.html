@@ -9,7 +9,7 @@
   <link href='https://fonts.googleapis.com/css?family=Solway' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet'>
-
+  
   <link rel="stylesheet" href="style.css">
 
 
@@ -37,10 +37,10 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
+              <a class="nav-link" href="Login.html">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="About.html">About Us</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -148,6 +148,9 @@
                   <b>Gujarati Thali</b><br>
                   <b>Andhra Thali</b><br>
                   <b>Kashmiri Thali</b>
+                  <a href="http://www.google.com/">
+                    <button>Visit Google</button>
+                 </a>
                 </center>
               </p>
               <p class="card-text"><small class="text-muted"></small></p>
@@ -275,6 +278,102 @@
     <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Meal-offer</button>
   </section>
 
+  <section>
+  
+    <script> 
+      $(document).ready(function() { 
+          var url = $("#Geeks3").attr('src'); 
+          $("#Geeks2").on('hide.bs.modal', function() { 
+              $("#Geeks3").attr('src', ''); 
+          }); 
+          $("#Geeks2").on('show.bs.modal', function() { 
+              $("#Geeks3").attr('src', url); 
+          }); 
+      }); 
+  </script> 
+
+<center> 
+  <h1 style="color:green">   
+    Good Food for Good Moments  
+</h1> 
+
+  <h3>   
+    Want a delicious meal, but no time we will deliver it hot and yummy😋.
+</h3> 
+  <div class="bs-example"> 
+      <a href="#Geeks2" 
+         class="btn btn-lg btn-primary" 
+         data-toggle="modal">PLAY VIDEO</a> 
+
+      <div id="Geeks2" class="modal fade"> 
+          <div class="modal-dialog"> 
+              <div class="modal-content"> 
+                  <div class="modal-header"> 
+                      <button type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-hidden="true">×</button> 
+                      <h4 class="modal-title"></h4> 
+                  </div> 
+                  <div class="modal-body"> 
+                      <iframe id="Geeks3" width="450" height="350"
+                              src="https://www.youtube.com/embed/rEjpncyCKxk" 
+
+                              frameborder="0" allowfullscreen> 
+                      </iframe> 
+                  </div> 
+              </div> 
+          </div> 
+    </div> 
+</div> 
+</center> 
+  </section>  
+
+  <section>
+    <div class="container">
+      <div class="card-group">
+        <!--bootstrap card with 3 horizontal images-->
+        <div class="row">
+          <div class="card col-md-4">
+            <img class="card-img-top"
+              src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png">
+  
+            <div class="card-body">
+              <h3 class="card-title">Vegeterian</h3>
+              <p class="card-text"><b>Akshay Netaji Lendave 9168672298</b><br>
+                <b>Pooja Raghunath Kulkarni 9028561719</b><br>
+                Apurva<br>
+                Alex<br>
+                shree<br>
+                Gaurav
+                .</p>
+            </div>
+          </div>
+  
+          <div class="card col-md-4">
+            <img class="card-img-top"
+              src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190705124953/Left-SP2019.png">
+  
+            <div class="card-body">
+              <h3 class="card-title text-primary">Non-Veg</h3>
+              <p class="card-text">Sudo Placement Course</p>
+            </div>
+          </div>
+  
+          <div class="card col-md-4">
+            <img class="card-img-top"
+              src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190623192118/Left-Bar-DSA-Self.png">
+  
+            <div class="card-body">
+              <h3 class="card-title">Beverages</h3>
+              <p class="card-text">DS & Algo Course</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -283,3 +382,14 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+

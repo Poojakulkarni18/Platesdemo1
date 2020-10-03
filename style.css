@@ -1,68 +1,18 @@
-/* <section>
-    <style>
-      img {
-  border-radius: 50%;
-}
-    </style>
-    <img src="images\effect-of-coronavirus-on-food.webp" alt="Avatar" style="width:200px">
-  </section>
+
+    
+  
+
+  
 
 
-  <style>
+  
   img {
     max-width: 100%;
     max-height: 50%;
     padding-top: 10px;
   }
 
-</style>
-</head>
 
-<body>
-  <div class="container">
-    <div class="card-group">
-
-      <!--bootstrap card with 3 horizontal images-->
-      <div class="row">
-        <div class="card col-md-4">
-          <img class="card-img-top"
-            src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png">
-
-          <div class="card-body">
-            <h3 class="card-title">Vegeterian</h3>
-            <p class="card-text"><b>Akshay Netaji Lendave 9168672298</b><br>
-              <b>Pooja Raghunath Kulkarni 9028561719</b><br>
-              Apurva<br>
-              Alex<br>
-              shree<br>
-              Gaurav
-              .</p>
-          </div>
-        </div>
-
-        <div class="card col-md-4">
-          <img class="card-img-top"
-            src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190705124953/Left-SP2019.png">
-
-          <div class="card-body">
-            <h3 class="card-title text-primary">Non-Veg</h3>
-            <p class="card-text">Sudo Placement Course</p>
-          </div>
-        </div>
-
-        <div class="card col-md-4">
-          <img class="card-img-top"
-            src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190623192118/Left-Bar-DSA-Self.png">
-
-          <div class="card-body">
-            <h3 class="card-title">Beverages</h3>
-            <p class="card-text">DS & Algo Course</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</body> */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -153,3 +103,13 @@ body {
 .london-font{
   font-family: 'Domine';font-size: 22px;
 }
+
+
+.bs-example { 
+  margin: 20px; 
+} 
+
+.modal-content iframe { 
+  margin: 0 auto; 
+  display: block; 
+} 
